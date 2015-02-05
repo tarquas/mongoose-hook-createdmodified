@@ -1,0 +1,55 @@
+{
+  "name": "mongoose-createdmodified-all",
+  "version": "0.1.1",
+  "description": "Mongoose plugin, adding `createdAt` and `modifiedAt` timestamp fields to document. `modifiedAt` is changed on any type of update.",
+  "license": "MIT",
+  "homepage": "https://github.com/tarquas/mongoose-createdmodified-all",
+  "main": "./lib/v0/mongoose-createdmodified-all.js",
+
+  "dependencies": {
+    "mongoose-hook": "tarquas/mongoose-hook#8b4c10800e"
+  },
+
+  "files": [
+    "./lib/v0"
+  ],
+
+  "bugs": {
+    "url": "https://github.com/tarquas/mongoose-createdmodified-all/issues",
+    "email": "tarquas@gmail.com"
+  },
+  
+  "directories": {
+    "lib": "./lib"
+  },
+  
+  "keywords": [
+    "mongoose",
+    "plugin",
+    "hook",
+    "mongoose-hook",
+    "created",
+    "modified",
+    "createdmodified",
+    "mongoose-createdmodified",
+    "all",
+    "static",
+    "mongo"
+  ],
+  
+  "author": {
+    "name": "Taras Mykhailovych",
+    "email": "tarquas@gmail.com",
+    "url": "http://194.44.203.87/tarquas/"
+  },
+  
+  "contributors": [
+    {"name": "Staff.com", "url": "https://staff.com/"},
+    {"name": "Time Doctor", "url": "https://timedoctor.com/"}
+  ],
+  
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tarquas/mongoose-createdmodified-all.git"
+  }
+}
