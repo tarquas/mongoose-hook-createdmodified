@@ -3,13 +3,13 @@ Mongoose plugin, adding `createdAt` and `modifiedAt` timestamp fields to documen
 
 # Installation
 ```shell
-git clone git@github.com:tarquas/mongoose-createdmodified-all.git mongoose-revision-all
+git clone git@github.com:tarquas/mongoose-hook-createdmodified.git mongoose-hook-createdmodified
 ```
 
 # Package
 ```js
 {
-  "mongoose-hook-createdmodified": "tarquas/mongoose-hook-createdmodified#6cef2524b0"
+  "mongoose-hook-createdmodified": "tarquas/mongoose-hook-createdmodified"
 }
 ```
 
