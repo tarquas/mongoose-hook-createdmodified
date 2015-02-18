@@ -1,4 +1,4 @@
-# mongoose-createdmodified-all
+# mongoose-hook-createdmodified
 Mongoose plugin, adding `createdAt` and `modifiedAt` timestamp fields to document. `modifiedAt` is changed on any type of update.
 
 # Installation
@@ -9,7 +9,7 @@ git clone git@github.com:tarquas/mongoose-createdmodified-all.git mongoose-revis
 # Package
 ```js
 {
-  "mongoose-createdmodified-all": "tarquas/mongoose-createdmodified-all#d33a92af1f"
+  "mongoose-hook-createdmodified": "tarquas/mongoose-hook-createdmodified#6cef2524b0"
 }
 ```
 
@@ -20,7 +20,7 @@ Example: enable 'createdAt' and 'modifiedAt' fields on a schema:
 ```js
 var
   mongoose = require('mongoose'),
-  createdModifiedPlugin = require('mongoose-createdmodified-all'),
+  createdModifiedPlugin = require('mongoose-hook-createdmodified'),
   PersonSchema;
 
 PersonSchema = {
