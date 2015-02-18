@@ -1,10 +1,10 @@
 {
-  "name": "mongoose-createdmodified-all",
+  "name": "mongoose-hook-createdmodified",
   "version": "0.1.1",
   "description": "Mongoose plugin, adding `createdAt` and `modifiedAt` timestamp fields to document. `modifiedAt` is changed on any type of update.",
   "license": "MIT",
-  "homepage": "https://github.com/tarquas/mongoose-createdmodified-all",
-  "main": "./lib/v0/mongoose-createdmodified-all.js",
+  "homepage": "https://github.com/tarquas/mongoose-hook-createdmodified",
+  "main": "./lib/v0/index.js",
 
   "dependencies": {
     "mongoose-hook": "tarquas/mongoose-hook#8b4c10800e"
@@ -15,7 +15,7 @@
   ],
 
   "bugs": {
-    "url": "https://github.com/tarquas/mongoose-createdmodified-all/issues",
+    "url": "https://github.com/tarquas/mongoose-hook-createdmodified/issues",
     "email": "tarquas@gmail.com"
   },
   
@@ -50,6 +50,6 @@
   
   "repository": {
     "type": "git",
-    "url": "http://github.com/tarquas/mongoose-createdmodified-all.git"
+    "url": "http://github.com/tarquas/mongoose-hook-createdmodified.git"
   }
 }
