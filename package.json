@@ -1,6 +1,6 @@
 {
   "name": "mongoose-hook-createdmodified",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Mongoose plugin, adding `createdAt` and `modifiedAt` timestamp fields to document. `modifiedAt` is changed on any type of update.",
   "license": "MIT",
   "homepage": "https://github.com/tarquas/mongoose-hook-createdmodified",
