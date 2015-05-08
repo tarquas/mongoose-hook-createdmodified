@@ -9,7 +9,7 @@ git clone git@github.com:tarquas/mongoose-hook-createdmodified.git mongoose-hook
 # Package
 ```js
 {
-  "mongoose-hook-createdmodified": "0.1.3"
+  "mongoose-hook-createdmodified": "0.1.4"
 }
 ```
 
